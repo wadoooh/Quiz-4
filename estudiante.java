@@ -7,9 +7,9 @@ public class estudiante {
     /***************************************************/
    String nombre;
 Date fecha de nacimiento;
-double notaMateria1;
-double notaMateria2;
-double notaMateria3;
+private double notaMateria1;
+private double notaMateria2;
+private double notaMateria3;
 
     /***************************************************/
     /******************** Métodos ********************/
