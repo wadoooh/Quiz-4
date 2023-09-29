@@ -42,6 +42,7 @@ private double notaMateria3;
 
     /**
      * Método que imprime la edad del estudiante
+     *Primero solicita el año de nacimiento del estudiante y lo suma mas el año actual
      * @return boolean:Imprime la edad que tiene el estudiante según su año de nacimientos
      *
      * Complejidad temporal: O(1) Tiempo Constante
@@ -49,6 +50,19 @@ private double notaMateria3;
     boolean edadEstudiante(){
         System.out.println("La edad del estudiate  "+ nombreEstudiante " es " + edadEstudiante );
         return true;
+        import java.util.Scanner;
+
+private class CalcularEdad {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingresa tu año de nacimiento: ");
+        int añoNacimiento = scanner.nextInt();
+        int añoActual = 2023;
+        int edadEstudiante = añoNacimiento - añoActual;
+        }
+  scanner.close();
+    }
+}
     }
 
     /**
